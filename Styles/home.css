@@ -1,0 +1,63 @@
+body {
+    background-color: pink;
+}
+
+
+header {
+    background-color: palevioletred;
+}
+
+
+h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5em;
+    -webkit-text-stroke: 0.02em deeppink;
+    /*https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text*/
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*Hartje*/
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color:pink;
+}
+
+.shape {
+    width: 100%;
+    height: 100%;
+    background: deeppink;
+    position: absolute;
+    text-align: center;
+    line-height: 0px;
+}
+
+/* A Heart clipping region using curve and arc transitions
+     and a box using hline and vline transitions */
+.shape2 {
+    clip-path: shape(from 20px 70px,
+            arc to 100px 70px of 1% cw,
+            arc to 180px 70px of 1% cw,
+            curve to 100px 190px with 180px 130px,
+            curve to 20px 70px with 20px 130px,
+            close,
+            move to 150px 150px,
+            close);
+}
+<--https://developer.mozilla.org/en-US/play?uuid=2a5c20869ed3a09dc6ed21d65ac6681757fc6999&state=nVTbjpswEP2VEVXUzSokQBO1ZbdV%2B9YP6EulPKwxBrxrbGSbJCjKv9cXLiHdvFRCxj5z7DlzxnAOKl2zIA2ec3oAzJBS3%2FYBFlwjyoncB9%2F3HGAWVBVqCLgxNvHnjQka1vA2s%2F85KnnnqGAVYKWMuEzkHZztdsRoyUOqSa1SwIRrIp8s%2FtoqTYsutOkMOovlVDUMdSkUjJwMcrEi16Mwf3AjFNVU8BQkYUjTA5nvpZwZcpgxgd9c5EhzXaWQRFFzckBFaFnpa6RGsqTcIj2QIfxWStHy3AhlQqbA7J5Som7Q9UO1TSOkVsCFhgfMaBM2yGZyNj0UUtQQQbSCWhwIaGEXy6Uv4raoK%2F1ccF%2FRxQkxhqYpKvTEHJ3bB39EKyGT4qhMOBdE8Y8ael2gKwIvXsvyBYqWY2sbdESv98GQwTxr39zzlVdxFC1mVo3AZEwKH5IMb1HyNO8KypRgrfY1aHLSobsKs0a7Dg1n77zpztTNI%2FyWFPGyZUiC9bShvDSdLq30x82gNvZy75i%2BMM%2FKJbG2W%2B0zYGfWFlyZ%2FUKR5VXyn%2FCLIOPdbeZW2QVupekk4jkgiUFLxH3RyjXG4aZhp55duXwWPfjME%2F%2BqkuROJb7Xrh57K%2BGzGVYedMldXT0OooB4Afh4Q%2Fhyj%2BALGc%2BIv9rxSHXV74k%2FTdlG7ijDM5N%2FiNbMfj5c%2BXjnWLuJ5V3JOthO2OEdbOSF25sUdtr3zPx3Xu1vx7zNba%2BJmbrvNLj8BQ%3D%3D&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FCSS%2FReference%2FValues%2Fbasic-shape%2Fshape%2F-->
