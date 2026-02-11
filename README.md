@@ -26,6 +26,10 @@ In week 1 heb ik me vooral beziggehouden met het bedenken van ideeën voor de pe
   <summary>Sprint 0 Week 2</summary>
 </details>
 
+
+# Maandag reflectie Week 2
+Maandag heb we een API workshop van Sanne gehad. Tijdens de workshop heb ik actief meegetypt en stap voor stap gevolgd wat er werd uitgelegd. Hierdoor kreeg ik beter inzicht in hoe een API werkt en hoe je data kunt ophalen en gebruiken in je website. Het was soms best ingewikkeld, maar door mee te typen en mee te doen kon ik het proces beter begrijpen. De rest van de dag ben ik bezig geweest met het vormgeven van de website met CSS. Ik heb gewerkt aan de layout, kleuren, lettertypes en animaties. Ik heb geprobeerd om alles visueel bij elkaar te laten passen en mijn ontwerp steeds verder te verbeteren. Door te experimenteren met verschillende stijlen kreeg mijn website steeds meer een eigen uitstraling.
+
 # Dinsdag reflectie Week 2
 Tijdens de workshop heb ik veel geleerd over het definiëren van schermen en websitegroottes met clamp. Ik heb ook geleerd hoe utility classes worden gebruikt voor consistente stijlen. Daarnaast heb ik geleerd dat je em gebruikt wanneer iets mee moet schalen, en rem wanneer een waarde vast moet blijven staan.Toch vond ik het lastig om de uitleg tijdens de workshop helemaal te volgen, omdat het vooral ging over elementen waar we nog niet eerder mee hadden gewerkt, dit zijn juist dingen die ik heel graag wil leren gebruiken en ik wil er de komende tijd extra mee oefenen. 
 
