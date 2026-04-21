@@ -1,5 +1,6 @@
 
 /*website waar we info van vragen */
+console.log("hoi")
 const url = base = "https://fdnd.directus.app/items/person/"
 
 /* Selecteert het formulier met class studentsearch uit de HTML */
@@ -46,7 +47,6 @@ async function haalPersonOp(id) {
   /*await zorgt ervoor dat de code stopt totdat er iets is opgehaald*/
   /* Haalt de persoon op van de API met het meegegeven id */
   let response = await fetch(url + id)
-
   /* om het voor de computer duidelijk te maken vraag je om een json bestand te maken*/
   /* Zet de response om naar een JSON object */
   let responseJSON = await response.json()
@@ -112,3 +112,29 @@ async function haalStudentenDieOpALijken(kenmerk) {
 
   });
 }
+
+
+/*Aanvulling*/
+/*Button zoeken*/
+let menuOpenButton = document.querySelector("header > button");
+
+/*kruisje zoeken*/
+let menuSluitButton = document.querySelector("header > div button");
+/*functie uitvoeren*/
+menuOpenButton.addEventListener("click", toggleMenu);
+
+/*functie uitvoeren*/
+menuSluitButton.addEventListener("click", toggleMenu);
+
+/*menu openen*/
+function toggleMenu() {
+  let deNav = document.querySelector("header > div");
+  deNav.classList.toggle("is-open");
+
+  let audio = new Audio("audio/kakaist-camera-shutter-314056.mp3");
+  audio.play();
+}
+
+var audio = new Audio('audio/kakaist-camera-shutter-314056.mp3');
+audio.play();
+/*https://stackoverflow.com/questions/9419263/how-to-play-audio*/

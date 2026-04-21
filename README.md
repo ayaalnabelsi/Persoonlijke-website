@@ -64,3 +64,26 @@ Ik vind dat ik deze week veel heb geleerd, het was een drukke maar leerzame week
 - Geholpen door Nienke (JS)
 
 </Bronnenlijst>
+
+
+
+# Aanvulling
+
+# Feedback
+1- Romy,
+Voor toekomstig alle functies en ID’s in JavaScript in het Engels benoemen. Dit zorgt voor meer consistentie maakt je code toegankelijker.
+
+Verder ziet je code er netjes en overzichtelijk uit. De structuur is duidelijk opgebouwd en je ontwerp is verzorgd en gebruiksvriendelijk.
+
+2- Nienke
+Zet de ul van de API in de toekomst in de main. Plaats de h1 Portfolio in de main en daaronder de ul van de API.
+
+Vervang de  h2 waar  door een p element om de semantiek te verbeteren. Voor de interactie  overwegen om de hartjes een rotatie animatie te geven. Gebruik een  if else statement voor het openen en sluiten van het menu in de header. 
+
+# Verwerkte feedback
+- van de h2 een paragraaf gemaakt is symantieser en klop qua keuze meer omdat het een lange tekst is 
+- hartjes in de footer een draaiende animatie van gemaakt 
+
+# Aanvulling reflectie
+- Werk besproken met 3 studenten 
+- hamburger menu gemaakt met mijn eigen gegevens uit de api, hover animatie en leuke camera shutter sound erbij 
